@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="d-flex justify-content-around bg-light pt-3 pb-3">
+      <h1> api bilan ishlash </h1>
+      <div class="d-flex align-items-center gap-2 ">
+        <input type="text" class="form-control" placeholder="id kirit">
+        <button class="btn btn-success"> search </button>
+      </div>
+    </nav>
+
+    <!-- <div class="d-flex flex-wrap  "> -->
+    <h1 class="d-none">loading...</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>id</th>
+          <th>toldirilgan</th>
+          <th>foydalanuvchi id</th>
+          <th>sarlavha</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <!-- </div> -->
+  </div>
+
+
+</body>
+<script src="js.js"></script>
+
+</html>
